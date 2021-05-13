@@ -10,3 +10,6 @@
 2）为减少更新的参数量，提出conditional layernorm,只更新speaker embedding和该层​即可。
 
 同时，将原有的conv1d层替换为Involution层，极大的提高了训练和推理速度，实验aishell3中一个说话人选取40句约2.5分钟，在1080ti上训练仅仅花费40分钟即可达到很好的效果（demo文件中包好音频比对）
+
+
+此代码不包含详细的预处理和训练部分，如有需要请联系cystyle.g@gmail.com
