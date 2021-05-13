@@ -13,3 +13,7 @@
 
 
 此代码不包含详细的预处理和训练部分，如有需要请联系cystyle.g@gmail.com
+
+
+代码参考：
+https://github.com/rishikksh20/AdaSpeech2
